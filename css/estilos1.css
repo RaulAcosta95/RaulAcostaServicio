@@ -1,0 +1,29 @@
+/* Secciones html */
+body{
+    background-color: #F3F3F3;
+}
+header{
+    background-color: #060606;
+}
+/* / Secciones html */
+/* Imagenes */
+header img{
+    max-width: 20vh;
+    border-radius: 50%;
+    margin: 5px;
+}
+/* / Imagenes */
+
+/* Enlaces */
+header div a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: "Century Gothic";
+    }
+header div a:hover{
+    color: white;
+}
+/* / Enlaces */
