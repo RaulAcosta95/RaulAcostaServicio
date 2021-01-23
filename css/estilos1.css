@@ -5,6 +5,10 @@ body{
 header{
     background-color: #060606;
 }
+footer{
+    background-color: #060606;
+    color: white;
+}
 /* / Secciones html */
 /* Imagenes */
 header img{
@@ -27,3 +31,16 @@ header div a:hover{
     color: white;
 }
 /* / Enlaces */
+
+/* Estilos opcionales */
+.floatleft{float: left;}
+.borde{border-style: solid;}
+.borde_rojo{border-style: solid; border-color: red;}
+.row{
+    /* border-style: solid; */
+}
+.row div{
+    /* border-style: solid;
+    border-color:red; */
+}
+/* / Estilos opcionales */
