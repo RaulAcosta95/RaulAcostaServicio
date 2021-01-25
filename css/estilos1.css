@@ -1,6 +1,6 @@
 /* Secciones html */
 body{
-    background-color: #F3F3F3;
+    background-color: #CED4FF;
 }
 header{
     background-color: #060606;
@@ -18,6 +18,23 @@ header img{
 }
 /* / Imagenes */
 
+/* Texto */
+p{
+    font-size: 20px;
+    margin-left: 20px;
+}
+h1,h2{
+    text-align: center;
+    margin-top: 20px;
+}
+h3,h4,h5,h6{
+    margin-left: 20px;
+}
+li{
+    font-size: 17px;
+}
+/* /Texto */
+
 /* Enlaces */
 header div a{
     padding: 10px;
@@ -31,7 +48,22 @@ header div a:hover{
     color: white;
 }
 /* / Enlaces */
+/* Cartas */
+#carta, #carta p,h5{
+    display: flex; 
+    flex-direction: column; 
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+#carta .card-body{
+    background-color: #232323;
+    color: white;
 
+}
+.btn{
+    background-color: #FF2D23;
+}
+/* / Cartas */
 /* Estilos opcionales */
 .floatleft{float: left;}
 .borde{border-style: solid;}
