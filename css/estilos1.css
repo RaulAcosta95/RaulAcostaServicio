@@ -3,36 +3,11 @@ body{
     background-color: #F1F4FF;
 }
 header{
-    background-color: #060606;
+    background-color: #171718;
 }
 /* / Secciones html */
-/* Imagenes */
-header img{
-    max-width: 20vh;
-    border-radius: 50%;
-    margin: 5px;
-}
-/* / Imagenes */
 
-/* Texto */
-p{
-    font-size: 20px;
-    margin-left: 20px;
-}
-h1,h2{
-    text-align: center;
-    margin-top: 20px;
-}
-h3,h4,h5,h6{
-    margin-left: 20px;
-}
-li{
-    font-size: 17px;
-    margin-left: 20px;
-}
-/* /Texto */
-
-/* Enlaces */
+/* Enlaces Header*/
 header div a{
     padding: 10px;
     text-decoration: none;
@@ -44,7 +19,36 @@ header div a{
 header div a:hover{
     color: white;
 }
-/* / Enlaces */
+/* / Enlaces Header */
+
+/* Imagenes Header */
+header img{
+    max-width: 18vh;
+    border-radius: 50%;
+    margin: 5px;
+}
+/* / Imagenes Header*/
+
+/* Imagenes Logos Index */
+#Conocimientos img{
+    max-height: 22vh;
+    margin: 1vh;
+    border-style: groove;
+    border: aqua;
+}
+/* /Imagenes Logos Index */
+
+
+/* Texto */
+
+
+li{
+    font-size: 17px;
+    margin-left: 20px;
+}
+/* /Texto */
+
+
 /* Cartas */
 #carta, #carta p,h5{
     display: flex; 
@@ -61,6 +65,7 @@ header div a:hover{
     background-color: #FF2D23;
 }
 /* / Cartas */
+
 /* Estilos propios fijos Raúl Acosta */
 /* https://twitter.com/raul_acosta95 */
 /* Mi FOOTER */
