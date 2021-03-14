@@ -5,10 +5,6 @@ body{
 header{
     background-color: #060606;
 }
-footer{
-    background-color: #060606;
-    color: white;
-}
 /* / Secciones html */
 /* Imagenes */
 header img{
@@ -65,15 +61,28 @@ header div a:hover{
     background-color: #FF2D23;
 }
 /* / Cartas */
-/* Estilos opcionales */
-.floatleft{float: left;}
-.borde{border-style: solid;}
-.borde_rojo{border-style: solid; border-color: red;}
-.row{
-    /* border-style: solid; */
+/* Estilos propios fijos Raúl Acosta */
+/* https://twitter.com/raul_acosta95 */
+/* Mi FOOTER */
+footer{
+    background-color: rgb(4, 2, 17);
+    color: white;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
-.row div{
-    /* border-style: solid;
-    border-color:red; */
+footer img{
+	margin-left: 30px;
+	margin-top: 15px;
 }
-/* / Estilos opcionales */
+/* /MI FOOTER */
+
+/* Clases opcionales */
+.floatleft{
+    float: left;
+}
+.borderojo{
+    border-style: solid;
+    border-color: red;
+}
+/* /Clases opcionales */
