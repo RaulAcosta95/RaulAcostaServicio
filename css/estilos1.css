@@ -40,8 +40,6 @@ header img{
 
 
 /* Texto */
-
-
 li{
     font-size: 17px;
     margin-left: 20px;
@@ -50,16 +48,17 @@ li{
 
 
 /* Cartas */
-#carta, #carta p,h5{
+#carta{
+    background-color: #232323;
+    color: white;
     display: flex; 
     flex-direction: column; 
     margin-bottom: 20px;
     margin-left: 0px;
 }
-#carta .card-body{
-    background-color: #232323;
-    color: white;
-
+.card img{
+    max-height: 20vh;
+    object-fit: none;
 }
 .btn{
     background-color: #FF2D23;
