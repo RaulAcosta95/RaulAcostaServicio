@@ -29,9 +29,9 @@ header img{
 }
 /* / Imagenes Header*/
 
-/* Imagenes Logos Index */
+/* Imagenes Logos Index *//*Para el QUERY le pongo 1vh*/
 #Conocimientos img{
-    max-height: 22vh;
+    height: 1vh;
     margin: 1vh;
     border-style: groove;
     border: aqua;
